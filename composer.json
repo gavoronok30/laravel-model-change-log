@@ -1,0 +1,44 @@
+{
+    "name": "it-devgroup/laravel-model-change-log",
+    "description": "laravel model change log",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gavoronok30",
+            "email": "gavoronok30@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "IT Dev Group",
+            "email": "info@it-devgroup.com",
+            "role": "Provider"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "model",
+        "change",
+        "logs"
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/database": "^8.0|^9.0",
+        "nesbot/carbon": "^1.0|^2.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ItDevgroup\\ModelChangeLog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ItDevgroup\\ModelChangeLog\\Providers\\ModelChangeLogProvider"
+            ]
+        }
+    }
+}
